@@ -6,10 +6,10 @@ Este repositorio contiene el diseño, estructura e implementación de una base d
 
 ## 🗂️ Estructura del Repositorio
 
-El proyecto está organizado en 5 módulos o archivos SQL específicos que deben ejecutarse en el siguiente orden secuencial:
+El proyecto está organizado en 6 archivos esenciales (5 scripts SQL específicos y 1 documento de soporte en PDF) que completan la entrega:
 
 ### 1. `proyecto_final_bdd_tablas.sql`
-* **Descripción:** Contiene el esquema DDl completo de la base de datos.
+* **Descripción:** Contiene el esquema DDL completo de la base de datos.
 * **Componentes clave:** Creación de todas las tablas normalizadas, definición de llaves primarias (`PK`), llaves foráneas (`FK`) con políticas de integridad, restricciones únicas (`UQ`) y validaciones de datos (`CHECK`) —incluyendo formatos de correo y protección de rangos de fechas lógicas—.
 
 ### 2. `proyecto_final_bdd_datos_actualizado.sql`
@@ -31,6 +31,10 @@ El proyecto está organizado en 5 módulos o archivos SQL específicos que deben
   - *Auditoría Financiera:* Automatización y congelación de precios históricos de medicamentos.
   - *Control de Agenda:* Prevención de superposición de horarios en las citas de los veterinarios.
 
+### 6. `documentacion_proyecto.pdf` 📄
+* **Descripción:** Documento formal en formato PDF que contiene toda la documentación requerida del proyecto final.
+* **Componentes clave:** Memoria técnica detallada, especificaciones arquitectónicas del modelo entidad-relación, justificación de las reglas de negocio aplicadas, diagramas de flujo lógicos y la guía formalizada del comportamiento de cada restricción, función y trigger programado en el sistema.
+
 ---
 
 ## 💻 Instrucciones de Despliegue y Uso
@@ -43,3 +47,4 @@ Para montar el proyecto de forma correcta en su entorno local, abra su gestor de
 4. Corra el script **`2. Datos`** para poblar el sistema por completo.
 5. Explore y verifique los reportes corriendo el archivo **`3. Consultas`**.
 6. Compile el archivo **`4. Funciones y Procedimientos`** para habilitar los bloques reutilizables del sistema.
+7. Consulte el archivo **`6. documentacion_proyecto.pdf`** para revisar el marco teórico, justificaciones de negocio y explicaciones técnicas de la base de datos.
