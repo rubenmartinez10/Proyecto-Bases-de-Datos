@@ -48,3 +48,16 @@ Para montar el proyecto de forma correcta en su entorno local, abra su gestor de
 5. Explore y verifique los reportes corriendo el archivo **`3. Consultas`**.
 6. Compile el archivo **`4. Funciones y Procedimientos`** para habilitar los bloques reutilizables del sistema.
 7. Consulte el archivo **`6. documentacion_proyecto.pdf`** para revisar el marco teórico, justificaciones de negocio y explicaciones técnicas de la base de datos.
+
+
+## 👥 Integrantes del equipo
+
+| # | Nombre | Carnet | Participación | Aportes |
+|---|--------|:--------:|:----------:|-----|
+| 1 | Fuentes Hernández, Dennis Alexander | 00144625 | 0% | |
+| 2 | Martínez Pérez, Rubén Eliseo | 00076325 | 100% | Creación de SP, funciones y colaboración en documentación|
+| 3 | Sánchez Gonzáles, Josué Gabriel | 00159925 | 100% | Creación de consultas select, colaboración en documentación |
+| 4 | Valle Ávalos, Ricardo Alexei | 00080525 | 100% | Creación de tablas y población de las mismas|
+| 5 | Ogawa Urquilla, Yukio Alberto | 00171625 | 100% | Creación de los triggers y colaboración en documentación|
+
+> **Ciclo 01 — 2026 · Universidad Centroamericana (UCA) · Bases de Datos**
